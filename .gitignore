@@ -7,3 +7,6 @@ uniref100.xml
 #data types
 
 *.pt
+
+#venv
+dl_plm/
