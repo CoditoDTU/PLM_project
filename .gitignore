@@ -4,8 +4,14 @@ test.xml
 uniref100.xml.gz
 uniref100.xml
 data/
-
+mlruns/
+get_reps/mlruns/
 get_reps/nohup.out
+get_reps/nohup2.out
+get_reps/nohup3.out
+get_reps/nohup4.out
+get_reps/__pycache__/
+
 #data types
 
 *.pt
