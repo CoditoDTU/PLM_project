@@ -35,4 +35,4 @@ PLM_PROJECT/
 ```
 
 ## Poster
-![Project description](bin\img\poster.png)
+![Project description](bin/img/poster.png)
