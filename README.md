@@ -20,7 +20,7 @@ PLM_PROJECT/
 ├── src/                                        # Main source code
 │   ├── evaluation/                             # Create plots from training's output
 │   │   ├── acc_perplex.py                      # Create boxplots for the poster
-|   |   ├── download_mlflow_results.py          # Get tracked training parameters and metrics per epoch
+|   |   ├── download_mlflow_results.py          # Get tracked training parameters and metrics
 │   │   └── line_plots.py                       # Create line plots for the poster
 │   │
 │   ├── training/                               # Training loop for knowledge distilation
