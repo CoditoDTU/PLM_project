@@ -6,8 +6,8 @@ from torch.utils.data import DataLoader
 from torch.nn.utils.rnn import pad_sequence
 
 # Data utilities and custom functions
-from data_utils import ProteinDataset, TaxonIdSampler, get_seq_rep, get_logits
-from token_mask import mask_single
+from utils.data_utils import ProteinDataset, TaxonIdSampler, get_seq_rep, get_logits
+from utils.token_mask import mask_single
 
 # Model and Machine learning - metrics
 from sklearn.metrics.pairwise import cosine_similarity
@@ -29,7 +29,7 @@ import warnings
 
 #Imports for loss
 
-from loss_functions import *
+from utils.loss_functions import *
 
 warnings.filterwarnings('ignore')
 
