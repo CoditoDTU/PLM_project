@@ -1,4 +1,4 @@
-# **Small Lessons, Big Lerner:** Fine Tuning of ESM-2 Protein Language Model Through Knowledge Distillation
+# **Small Lessons, Big Learner:** Fine Tuning of ESM-2 Protein Language Model Through Knowledge Distillation
 > *Authors:* Edir Sebastian Vidal Castro, Florencia De Lillo, Kacper Maciejewski, Rodrigo Gallegos Dextre <br />
 > *Supervisor:* Jonathan Funk <br />
 
@@ -26,7 +26,7 @@ PLM_PROJECT/
 │   ├── training/                               # Training loop for knowledge distilation
 │   │   ├── get_logits.py                       # Precomputes logits from the student model
 │   │   ├── get_reps.py                         # Precomputes representations from the student model
-│   │   └── training_loop.py                    # Knowledge-destillation traning loop based on precomputed results
+│   │   └── training_loop.py                    # Knowledge-destillation loop on precomputed results
 │   │
 │   ├── utils/                                  # Training-related code
 │   │   ├── data_utils.py                       # Data loader with taxonomy-oriented batching
