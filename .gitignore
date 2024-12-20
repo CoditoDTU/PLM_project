@@ -11,7 +11,7 @@ get_reps/nohup2.out
 get_reps/nohup3.out
 get_reps/nohup4.out
 get_reps/__pycache__/
-
+results_plots/*
 #data types
 
 *.pt
